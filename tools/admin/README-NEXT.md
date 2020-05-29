@@ -26,7 +26,10 @@ This is a Scala based implementation of `wskadmin` utility and is meant to be DB
 
 ### Build
 
+Before attempting to build the tool run, you should have Java 11(JDK 11) installed on their system. Otherwise features that are no longer supported in later versions of Java(i.e. Java 14) will not allow you to build.
+
 To build the tool run
+
 
     $./gradlew :tools:admin:build
 
